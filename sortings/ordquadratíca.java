@@ -1,4 +1,4 @@
-public class ordquadratica {
+public class ordquadratíca {
 
 
 public static void selectionSort(int[] values){
@@ -28,11 +28,11 @@ public static void insertionSort(int[] values){
 }
 
 public static void bubbleSort(int[] values){
-    for(int i = 0; i < values.lenght - 1; i++){
-        for(int j = 0; j < values.lenght - 1; j++){
+    for(int i = 0; i < values.length - 1; i++){
+        for(int j = 0; j < values.length - 1; j++){
             if (values[j] > values[j + 1]){
                 int aux = values[j];
-                values[j] = values[j+1]
+                values[j] = values[j+1];
                 values[j + 1] = aux;
             }
         }
